@@ -1,0 +1,23 @@
+/* 769 - 1024 */
+@media (max-width: 1001px) {
+
+    /* special events page */
+    .special_events_container {
+        padding-inline: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    /* special events page */
+
+    .special_events_txt h1 {
+        font-size: 20px;
+    }
+
+    .special_events_txt p {
+        font-size: 14px;
+    }
+}

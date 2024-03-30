@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <script src="https://kit.fontawesome.com/1c228abca5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/laptop.css">
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <title>Coffee Point</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo_icon.webp">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="burger_icon_container" id="burger_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="burger_menu_container" id="burger_menu">
+                <ul class="burger_menu_list">
+                    <li class="burger_menu_list_item">
+                        <a href="index.html" class="burger_menu_link">HOME</a>
+                    </li>
+                    <li class="burger_menu_list_item">
+                        <a href="menu.html" class="burger_menu_link">MENU</a>
+                    </li>
+                    <li class="burger_menu_list_item">
+                        <a href="ourStory.html" class="burger_menu_link">OUR STORY</a>
+                    </li>
+                    <li class="burger_menu_list_item">
+                        <a href="specialEvents.html" class="burger_menu_link">SPECIAL EVENTS</a>
+                    </li>
+                </ul>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li class="nav_list_item">
+                        <a href="index.html" class="nav_list_item_link">HOME</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="menu.html" class="nav_list_item_link">MENU</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="ourStory.html" class="nav_list_item_link">OUR STORY</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="specialEvents.html" class="nav_list_item_link">SPECIAL EVENTS</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="#find_us" class="nav_list_item_link">FIND US</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html" class="logo_link">
+                <img src="assets/logo.jpg" alt="page icon" class="logo_link_img">
+            </a>
+            <div class="login_btn_container">
+                <a href="login.html">
+                    <button class="login btn">Log in</button>
+                </a>
+            </div>
+        </header>
+
+        <section class="register_container">
+            <div class="register_wrapper">
+                <h1>Create Your Account</h1>
+                <form name="form" id="registration_form">
+                    <div class="name input_wrapper">
+                        <label class="form_input_label" for="name">Name</label>
+                        <input type="text" class="form_input" name="NAME" placeholder="Name" id="name" required>
+                        <label class="form_input_label" for="lastName">Last Name</label>
+                        <input type="text" class="form_input" name="SURENAME" placeholder="Last name" id="lastName"
+                            required>
+                    </div>
+                    <div class="mail input_wrapper">
+                        <label class="form_input_label" for="email">Email</label>
+                        <input type="email" class="form_input" name="EMAIL" placeholder="Email" id="email" required>
+                        <label class="form_input_label" for="password">Password</label>
+                        <input type="password" class="form_input" name="PASSWORD" placeholder="Password" id="password"
+                            required>
+                    </div>
+                    <div class="additional input_wrapper">
+                        <label class="form_input_label" for="number">Number</label>
+                        <input type="text" class="form_input" name="NUMBER" placeholder="Phone number" id="number"
+                            required>
+                        <label class="form_input_label" for="city">City</label>
+                        <input type="text" class="form_input" name="CITY" placeholder="city" id="city" required>
+                    </div>
+
+                    <button type="submit" class="register btn">Sign Up</button>
+                    <p class="register_msg hidden"></p>
+                    <div class="login_link">
+                        <h3>Already have an account?</h3>
+                        <a href="login.html">
+                            Log In Here
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer id="find_us">
+            <a href="index.html" class="logo_link">
+                <img src="assets/logo.jpg" alt="page icon" class="logo_link_img footer">
+            </a>
+            <a href="https://www.google.com/maps/place/The+Trailhead+Compound/@35.6750323,-105.9643036,17z/data=!3m1!4b1!4m6!3m5!1s0x8718507a660cd60d:0x7bdd3dc87330d635!8m2!3d35.675028!4d-105.9617287!16s%2Fg%2F11fx912gwc?entry=ttu"
+                target="_blank" class="footer_address">Trailhead Compound | 922 Shoofly St. Santa Fe, NM
+                87505</a>
+            <div class="contact_info_wrapper">
+                <a href="tel: +1 (505) 310-0089" class="contact_info">+1 (505) 310-0089</a>
+                <span>|</span>
+                <a href="mailto: cafe@coffeepoint.com" class="contact_info">cafe@coffeepoint.com</a>
+            </div>
+            <p>Monday to Saturday 8am - 5pm | Sunday 9am - 3pm</p>
+            <div class="socials_wrapper">
+                <a href="https://www.facebook.com/" target="_blank" class="social_link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="social_link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank" class="social_link">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="register.js"></script>
+    <script type="text/javascript" src="burger.js"></script>
+</body>
+
+</html>

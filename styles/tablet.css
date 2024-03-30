@@ -1,0 +1,189 @@
+/* 481 - 768 */
+
+@media (max-width: 600px) {
+    /* header */
+
+    .home_hero_slide_container {
+        height: 350px;
+    }
+
+    .circle_wrapper {
+        top: 70%;
+    }
+
+    /* footer */
+    .footer_address {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* home info section */
+
+    .home_info_section {
+        padding-inline: 5px;
+    }
+
+    .home_info_section h1,
+    .story_section h1,
+    .special_events_txt h1,
+    .login_wrapper h1,
+    .register_wrapper h1,
+    .reservation_wrapper h1 {
+        font-size: 16px;
+    }
+
+    .home_info_section h2,
+    .story_section h2,
+    #menu_item_type {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .home_info_section_address {
+        font-size: 8px;
+    }
+
+    .home_info_section_links_wrapper {
+        column-gap: 10px;
+    }
+
+    .home_info_section_link,
+    .home_info_section_links_wrapper>span {
+        font-size: 12px;
+
+    }
+
+    /* story section */
+    .story_section_txt {
+        font-size: 10px;
+    }
+
+    /* events section */
+    .events_section h2 {
+        font-size: 18px;
+    }
+
+    .event_cards_wrapper {
+        column-gap: 10px;
+    }
+
+    .event_card {
+        flex: 1 0 150px;
+        max-width: 150px;
+    }
+
+    .event_description {
+        font-size: 10px;
+    }
+
+    .event_date {
+        font-size: 7px;
+    }
+
+    .event_learn_more {
+        font-size: 10px;
+    }
+
+    /* menu page */
+
+    .menu_container {
+        padding: 100px 20px 20px 20px;
+
+    }
+
+    .menu_items_container {
+        padding-block: 30px;
+    }
+
+    .menu_selection_list {
+        column-gap: 5px;
+    }
+
+    .menu_selection_btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    /* our story */
+    .story_container {
+        padding-block: 30px;
+    }
+
+
+    /* special events page */
+    .special_events_container {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+
+    .special_events_txt {
+        width: 80%;
+        text-align: center;
+        row-gap: 15px;
+        align-items: center;
+    }
+
+    .special_events_txt p {
+        font-size: 14px;
+    }
+
+    .special_events_button {
+        font-size: 8px;
+    }
+
+    /* events and news pages*/
+    .event_cover_container {
+        padding-inline: 20px;
+    }
+
+    .event_cover_container p {
+        width: 80%;
+    }
+
+    .event_navigation span {
+        display: none;
+    }
+
+    .event_cover_container h3 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    /* menu page */
+    .menu_selection_btn {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .menu_list li {
+        font-size: 12px;
+    }
+
+    /* our story */
+    .story_container h1 {
+        font-size: 25px;
+    }
+
+    .story_container h3 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .story_container p {
+        font-size: 14px;
+    }
+
+    /* login page */
+    .login_wrapper,
+    .register_wrapper,
+    .reservation_wrapper {
+        width: 280px;
+        padding: 15px;
+    }
+
+
+}

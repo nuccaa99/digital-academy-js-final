@@ -1,0 +1,12 @@
+/* 320 - 480 */
+@media (max-width: 420px) {
+    /* footer */
+    .footer_address {
+        font-size: 10px;
+    }
+
+    .contact_info,
+    footer p {
+        font-size: 8px;
+    }
+}

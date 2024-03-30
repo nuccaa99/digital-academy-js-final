@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+:root {
+    --font: "Montserrat", sans-serif;
+    --sec-font: "Inconsolata", monospace;
+    --font-color: #2e1537;
+    --sec-font-color: #6e5778;
+    --color-bright: #B86F21;
+    --background-light: #f9f5fc;
+}
